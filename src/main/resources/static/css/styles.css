@@ -1,0 +1,53 @@
+/* creat a fixed layout*/
+html{
+
+    background-color: aliceblue;
+}
+
+body {
+    width:1000px;
+    margin:auto;
+    background-color: red;
+}
+
+div#jokes-list {
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+
+}
+
+section {
+    background-color: beige;
+    border:2px solid Black;
+    padding :8px;
+    margin :10px;
+    border-right: 5px;
+}
+
+section h2 {
+    font-size:1.2em;
+}
+
+.card{
+    border:2px solid darkblue;
+    padding:8px;
+    margin:12px;
+    background-color: navajowhite;
+    display:block;
+    width:200px;
+
+}
+
+section#jokes-list{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+label , input, button {
+    display: block;
+    margin-bottom:4px ;
+}
+
+label{
+    font-size: 16px;
+}
